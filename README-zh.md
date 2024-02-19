@@ -65,6 +65,14 @@ checkpoints/
 python inference/app_real3dportrait.py
 ```
 
+如果出错，这样安装 torch3d:
+```
+conda install pytorch==2.0.1 torchvision torchaudio pytorch3d::pytorch3d pytorch-cuda=11.8 -c pytorch -c nvidia
+
+pip install chardet
+pip install numpy==1.23.0
+```
+
 ### 命令行推理
 首先，切换至项目根目录并启用Conda环境：
 ```bash
